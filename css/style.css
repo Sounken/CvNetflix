@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/font/Nimbus-Sans-D-OT-Ultra-Light_32757.woff2") format("woff2");
+}
+body{
+    font-family: "Helvetica Neue", Serif;
+    background: #141414;
+}
+
+.navbar{
+    height: 68px;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+}
+
+.bg-dark{
+    background-color: transparent!important;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+}
+
+.container-fluid{
+    padding-left: var(--bs-gutter-x,4%)!important;
+}
+
+.nav-link{
+    color: #e5e5e5!important;
+    height: 100%;
+    font-size: 16px;
+    padding-left: 1.3rem!important;
+}
+
+.nav-link:hover{
+    color: #b3b3b3 !important;
+    transition: color .4s;
+}
+
+.bg{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    position: absolute;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    opacity: .99;
+}
+
+.info{
+    left: 4%;
+    right: 38%;
+    position: absolute;
+    bottom: 35%;
+    width: 650px;
+    top: 25%;
+}
+
+.synopsis{
+    word-wrap: break-word;
+    font-family: "Helvetica Neue", Serif;
+    text-align: justify;
+    width: 100%;
+    margin: .5vw 0 0 0;
+    color: #fff;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 1.8vw;
+    line-height: 1.3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+
+.lec{
+    margin: 1vw 0 0 0;
+    padding: 0.5vw;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    background-color: #e5e5e5!important;
+    border: 0;
+    width: 30%;
+}
+
+.lec:hover{
+    color: black;
+    background-color: #b3b3b3 !important;
+}
+
+.play{
+    margin-bottom: 3%;
+
+}
+
+.infos{
+    margin: 1vw 0 0 0;
+    margin-left: 1rem;
+    padding: 0.5vw;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    background-color: grey!important;
+    opacity: 50%;
+    border: 0;
+    width: 30%;
+}
+.infos:hover{
+    color: black;
+    background-color: #b3b3b3 !important;
+}
+
+.top10{
+    position: absolute;
+    line-height: 1.25vw;
+    font-size: 1.6vw;
+    left: 4%;
+    top: 80%;
+    color: #e5e5e5!important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
